@@ -5,20 +5,16 @@
 </p>
 
 ## Flujo
-* Crear una instancia del servicio en IBM Cloud.
-* Crear las ocho clases para este ejemplo, cargando las imágenes correspondientes descargadas previamente.
-* Entrenar el modelo.
-* Testear el modelo.
-* Utilizando Node.js o Java pruebe la API del servicio para obtener los objetos dañados de la imagen seleccionada.
+
+
 
 ## Resumen
 
-Actualmente la inteligencia artificial es una de las áreas que más interesa en la comunidad científica y en concreto, el campo del análisis de imágenes tiene un interés especial, ya que sus aplicaciones son muy variadas y útiles.\
-Uno de los casos más utilizados de análisis de imágenes es el de los clasificadores. Estos permiten identificar qué tipo de objeto se encuentra en la imagen que queremos analizar. En el ejemplo que realizaremos en este workshop, crearemos un clasificador multiclase para reconocer partes dañadas de un vehículo en una imagen.
+
 
 ## Descripción
 
-En este workshop crearemos un tasador de choques que reconocerá cuáles son las partes dañadas de un vehículo a partir de una imagen. Para esto, será necesario crear un clasificador multiclase en el servicio Watson Visual Recognition que determine la probabilidad con la que una parte dañada aparece en la imagen deseada. Luego, integraremos el modelo creado con un código en Node.js o Java, según cual su interés, que, utilizando el SDK de para Watson, consuma la instancia del servicio de Visual Recognition que se ha creado. Este código imprimirá las diferentes partes dañadas que encuentra en la imagen con sus respectivas probabilidades.
+
 
 ## ¿Qué tiene el repositorio?
 - ClimbingWeather-API.yaml
@@ -39,32 +35,10 @@ En este workshop crearemos un tasador de choques que reconocerá cuáles son las
 
 * Clonar el repositorio
   ```
-  $ git clone https://github.com/IBMInnovationLabUY/tasador-choques-code-day
+  $ git clone https://github.com/IBMInnovationLabUY/api-connect-code-day
   ```
 
-Seleccione la opción que le interesa para realizar el workshop:
 * Instalar [Node.js](https://nodejs.org/es/download/)
-* Instalar [Java](https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/)
-
-Según la opción anterior:
-* Para Node.js
-  - Instalar [Visual Studio Code](https://code.visualstudio.com/download)
-  - Dirigirse al directorio _Codigo/Node_ y ejecutar el comando ``` npm install ```
-* Para Java
-  - Instalar [Eclipse](https://www.eclipse.org/downloads/packages/installer)
-  - Abrir Eclipse
-  - Cuando se nos pide definir el workspace en el que trabajaremos, creamos uno dentro de la carpeta _Codigo_
-  - Dentro de Eclipse:
-    - Crear un proyecto Java con nombre Tasador
-    - Importar el proyecto:
-      - Botón derecho sobre el proyecto y seleccionar Importar
-      - Seleccionamos la opción Archive File que se encuentra en la catergoría General y le damos Next
-      - Seleccionamos el archivo tasador.jar que se encuentra en _Codigo/Java_
-      - Guardamos en Tasador/src y finalizamos
-    - Agregar las dependencias de Watson al proyecto:
-      - Botón derecho sobre la carpeta del proyecto
-      - Abrir pestaña Build Path y seleccionar opción Add External Archives
-      - Seleccionar el .jar que se encuentra en _Codigo/Java/Dependencias_
 
 ## Arquitectura
 
