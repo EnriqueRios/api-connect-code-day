@@ -5,8 +5,13 @@
 </p>
 
 ## Flujo
-
-
+* Crear una instancia del servicio API Connect
+* Configuraciones iniciales(NO SE SI VA)
+* Publicar una API
+* Realizar llamadas a la API publicada
+* Analizar el uso de la API
+* Agregar seguridad a la API
+* Introducción al Developer Portal 
 
 ## Resumen
 
