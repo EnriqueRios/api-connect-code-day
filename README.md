@@ -15,7 +15,7 @@
 
 ## Resumen
 
-
+IBM API Connect es una solución líder en el mercado de gestión de API que permite la creación automatizada de API, descubrimiento de activos, autoservicio para desarrolladores con administración y seguridad incorporada. Con esta herramienta se le facilita la labor a los desarrolladores para crear, desplegar, administrar, asegurar y monetizar sus APIs.
 
 ## Descripción
 
