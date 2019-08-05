@@ -39,11 +39,3 @@
   ```
 
 * Instalar [Node.js](https://nodejs.org/es/download/)
-
-## Arquitectura
-
-<p align="center">
-  <img src="Imagenes/arq_tasador.jpg" width="722" length="500">
-</p>
-
-## 
