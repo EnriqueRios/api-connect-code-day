@@ -1,7 +1,7 @@
 # Workshop sobre API Connect - Aprenda a gestionar el ciclo de vida de sus APIs
 
 <p align="center">
-  <img src="Imagenes/watson.png" width="150" length="200">
+  <img src="Imagenes/watson_logo.png" width="150" length="200">
 </p>
 
 ## Flujo
