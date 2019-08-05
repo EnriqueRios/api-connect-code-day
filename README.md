@@ -42,5 +42,3 @@
   ```
   $ git clone https://github.com/IBMInnovationLabUY/api-connect-code-day
   ```
-
-* Instalar [Node.js](https://nodejs.org/es/download/)
