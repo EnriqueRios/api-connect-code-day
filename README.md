@@ -74,12 +74,15 @@ Luego, se abre la interfaz del servicio API Connect y podremos comenzar a trabaj
 
 Para poder publicar una API, primero debemos crear un nuevo catálogo. Para esto, desde la vista principal del servicio, hacemos click en el botón **Add** y luego en **Catalog**.
 
-(crear_catalogo)
+<p align="center">
+  <img src="Imagenes/crear_catalogo.png" width="722" length="500">
+</p>
 
 Le ponemos como nombre _miCatalogo_ y presionamos **Add**.
 
-(nombre_catalogo)
-
+<p align="center">
+  <img src="Imagenes/nombre_catalogo.png" width="722" length="500">
+</p>
 
 
 ## Realizar llamadas a la API publicada
