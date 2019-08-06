@@ -19,7 +19,7 @@ IBM API Connect es una solución líder en el mercado de gestión de API que per
 
 ## Descripción
 
-En este hands-on aprenderemos a utilizar el servicio API Connect con el que podremos publicar una API, agregándole aspectos de seguridad para que no cualquier persona pueda consumirla. Luego, utilizaremos la API tanto desde la nube como de forma local mediante la aplicación Postman. Una vez que tengamos algunas llamadas realizadas, pasaremos a analizar el uso de la API mediante un panel personalizable. Por último, entenderemos cómo utilizar el Developer Portal y cúales son sus beneficios. 
+En este hands-on aprenderemos a utilizar el servicio API Connect con el que podremos publicar una API, agregándole aspectos de seguridad para que no cualquier persona pueda consumirla. Luego, utilizaremos la API de forma local mediante la aplicación Postman. Una vez que tengamos algunas llamadas realizadas, pasaremos a analizar el uso de la API mediante un panel personalizable. Por último, entenderemos cómo utilizar el Developer Portal y cúales son sus beneficios. 
 
 ## ¿Qué tiene el repositorio?
 - ClimbingWeather-API.yaml
@@ -43,3 +43,33 @@ En este hands-on aprenderemos a utilizar el servicio API Connect con el que podr
   $ git clone https://github.com/IBMInnovationLabUY/api-connect-code-day
   ```
 * Instalar [Postman](https://www.getpostman.com/downloads/)
+
+## Crear una instancia del servicio API Connect
+
+
+
+## Configuraciones iniciales
+
+
+
+## Publicar una API
+
+
+
+## Realizar llamadas a la API publicada
+
+
+
+## Analizar el uso de la API
+
+
+
+## Agregar seguridad a la API
+
+
+
+## Introducción al Developer Portal
+
+
+
+
