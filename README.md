@@ -84,6 +84,35 @@ Le ponemos como nombre _miCatalogo_ y presionamos **Add**.
   <img src="Imagenes/nombre_catalogo.png" width="722" length="500">
 </p>
 
+Ahora que tenemos nuestro catálogo creado, podemos pasar a crear nuestra API. En el menú de la izquierda, seleccionamos la opción **Drafts**.
+
+<p align="center">
+  <img src="Imagenes/seleccionar_drafts.png" width="722" length="500">
+</p>
+
+Ingresamos a la pestaña **APIs** y presionamos **Add**. En las opciones que se abren, seleccionamos **Import API from a file or URL**.
+
+<p align="center">
+  <img src="Imagenes/agregar_api.png" width="722" length="500">
+</p>
+
+Presionamos el botón **Select File** y elegimos el archivo _ClimbingWeather-API.yaml_ que se encuentra en la raíz del repositorio. 
+
+<p align="center">
+  <img src="Imagenes/importar_api_1.png" width="722" length="500">
+</p>
+
+Luego, marcamos la opción **Add a product** y elegimos un título para el producto que vamos a agregar. En este caso, lo nombraremos _climbingWeather_.
+
+<p align="center">
+  <img src="Imagenes/importar_api_2.png" width="722" length="500">
+</p>
+
+Por último, selecciomos el catálogo _miCatalogo_, que creamos anteriormente, para publicar nuestro producto. Presionamos el botón **Import** y se importará la API.
+
+<p align="center">
+  <img src="Imagenes/importar_api_3.png" width="722" length="500">
+</p>
 
 ## Realizar llamadas a la API publicada
 
