@@ -120,9 +120,33 @@ Se abrirá la vista de diseño de la API que importamos anteriormente. Podremos 
   <img src="Imagenes/diseno_api.png" width="722" length="500">
 </p> 
 
+En este momento tenemos nuestra API publicada para que pueda ser consumida por una aplicación externa.
+
 ## Realizar llamadas a la API publicada
 
+Para testear que nuestra API se encuentra funcionando correctamente utilizaremos la aplicación _Postman_, que nos permitirá realizar llamadas fácilmente. Dentro de la aplicación, seleccionamos el botón que nos permite crear una llamada nueva.
 
+<p align="center">
+  <img src="Imagenes/postman_1.png" width="722" length="500">
+</p>
+
+Para poder preparar nuestra llamada, debemos obtener primero la URL al recurso que queremos consumir. Seleccionamos la pestaña **Explore** y luego el catálogo que creamos en los pasos anteriores.
+
+<p align="center">
+  <img src="Imagenes/explore.png" width="722" length="500">
+</p>
+
+A continuación, podremos ver información sobre los recursos que se encuentran en nuestro catálogo. Debemos copiar la URL de la API del clima para poder utilizarla en Postman.
+
+<p align="center">
+  <img src="Imagenes/endpoint_api.png" width="722" length="500">
+</p>
+
+Con el endpoint copiado, volvemos a _Postman_ y lo pegamos en área que pide la URL a consultar.
+
+<p align="center">
+  <img src="Imagenes/postman_2.png" width="722" length="500">
+</p>
 
 ## Analizar el uso de la API
 
