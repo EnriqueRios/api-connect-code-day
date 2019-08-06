@@ -70,11 +70,15 @@ Luego, se abre la interfaz del servicio API Connect y podremos comenzar a trabaj
   <img src="Imagenes/interfaz_servicio.png" width="722" length="500">
 </p>
 
-## Configuraciones iniciales
-
-
-
 ## Publicar una API
+
+Para poder publicar una API, primero debemos crear un nuevo catálogo. Para esto, desde la vista principal del servicio, hacemos click en el botón **Add** y luego en **Catalog**.
+
+(crear_catalogo)
+
+Le ponemos como nombre _miCatalogo_ y presionamos **Add**.
+
+(nombre_catalogo)
 
 
 
