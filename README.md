@@ -142,7 +142,7 @@ A continuación, podremos ver información sobre los recursos que se encuentran 
   <img src="Imagenes/endpoint_api.png" width="722" length="500">
 </p>
 
-Con el endpoint copiado, volvemos a _Postman_ y lo pegamos en área que pide la URL a consultar.
+Con el endpoint copiado, volvemos a _Postman_ y lo pegamos en el área que pide la URL a consultar.
 
 <p align="center">
   <img src="Imagenes/postman_2.png" width="722" length="500">
