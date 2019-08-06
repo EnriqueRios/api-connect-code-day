@@ -114,6 +114,12 @@ Por último, selecciomos el catálogo _miCatalogo_, que creamos anteriormente, p
   <img src="Imagenes/importar_api_3.png" width="722" length="500">
 </p>
 
+Se abrirá la vista de diseño de la API que importamos anteriormente. Podremos ver información relevante y configurar características de la API según las necesidades del desarrollador.
+
+<p align="center">
+  <img src="Imagenes/diseno_api.png" width="722" length="500">
+</p> 
+
 ## Realizar llamadas a la API publicada
 
 
