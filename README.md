@@ -49,25 +49,25 @@ En este hands-on aprenderemos a utilizar el servicio API Connect con el que podr
 Para crear la instancia del servicio, entramos a nuestra cuenta de IBM Cloud y seleccionamos la pestaña *Catalog*.
 
 <p align="center">
-  <img src="Imagenes/catalogo.png" width="150" length="200">
+  <img src="Imagenes/catalogo.png" width="722" length="500">
 </p>
 
 Presionamos a la opción *Integration* y seleccionamos el servicio *API Connect*.
 
 <p align="center">
-  <img src="Imagenes/servicio.png" width="150" length="200">
+  <img src="Imagenes/servicio.png" width="722" length="500">
 </p>
 
 Hay que ingresar un nombre para la instancia que vamos a crear. En este caso, ponemos _API Connect-code-day_ y presionamos el botón *Create*.
 
 <p align="center">
-  <img src="Imagenes/crear_instancia.png" width="150" length="200">
+  <img src="Imagenes/crear_instancia.png" width="722" length="500">
 </p>
 
 Luego, se abre la interfaz del servicio API Connect y podremos comenzar a trabajar en el mismo.
 
 <p align="center">
-  <img src="Imagenes/interfaz_servicio.png" width="150" length="200">
+  <img src="Imagenes/interfaz_servicio.png" width="722" length="500">
 </p>
 
 ## Configuraciones iniciales
