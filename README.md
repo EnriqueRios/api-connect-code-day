@@ -205,6 +205,37 @@ Esperamos unos segundos para que se realice la consulta y bajamos para ver la re
 
 ## Agregar seguridad a la API
 
+Ahora veamos cómo proteger el acceso a una API utilizando el protocolo OAuth 2.0. Construiremos el proveedor OAuth 2.0 y luego agregaremos la seguridad OAuth 2.0 a una API existente. En nuestro caso vamos a utilizar la API del clima con la que ya hemos estado trabajando.\
+Lo primero que vamos a hacer es copiar nuestro API Endpoint para poder utilizarlo luego. Para encontrarlo hay que ir al dashboard y elegir el catálogo, en mi caso **miCatalogo**.
+
+<p align="center">
+  <img src="Imagenes/seleccion_catalogo.png" width="722" length="500">
+</p>
+
+Luego hacemos click sobre la pestaña **Settings** y después en la pestaña **Gateways**. Ahí podremos encontrar el endpoint, el cual copiaremos para utilizar más adelante.
+
+<p align="center">
+  <img src="Imagenes/endpoint_api_2.png" width="722" length="500">
+</p>
+
+Ahora crearemos la API OAuth 2.0. Vamos a **Drafts** y luego a la pestaña **APIs**.
+
+<p align="center">
+  <img src="Imagenes/drafts_apis.png" width="722" length="500">
+</p>
+
+Hacemos click sobre **Add** y luego **OAuth 2.0 Provider API**.
+
+<p align="center">
+  <img src="Imagenes/crear_oauth_api.png" width="722" length="500">
+</p>
+
+Colocamos de título _OAuth_, nombre oauth y automáticamente debería agregar como base path /oauth. Una vez hayamos completado todos los campos, hacemos clic en **Create API**.
+
+<p align="center">
+  <img src="Imagenes/crear_oauth_api_2.png" width="722" length="500">
+</p>
+
 
 
 
