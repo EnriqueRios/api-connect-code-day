@@ -203,11 +203,8 @@ Esperamos unos segundos para que se realice la consulta y bajamos para ver la re
   <img src="Imagenes/res_postman.png" width="722" length="500">
 </p>
 
-## Analizar el uso de la API
-
-
-
 ## Agregar seguridad a la API
+
 
 
 
