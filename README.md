@@ -148,6 +148,25 @@ Con el endpoint copiado, volvemos a _Postman_ y lo pegamos en el área que pide 
   <img src="Imagenes/postman_2.png" width="722" length="500">
 </p>
 
+Ahora debemos definir las claves de seguridad y los parámetros que se van a incluir en la consulta. Para conocer estos parámetros necesarios, volvemos a la vista de la que tomamos el endpoint de la API.\
+Luego, vamos a la zona de seguridad y vemos las dos claves que hay que pasarle a la API. Estas claves son:
+* X-IBM-Client-Id
+* X-IBM-Client-Secret
+
+<p align="center">
+  <img src="Imagenes/security_api.png" width="722" length="500">
+</p>
+
+Para conocer los parámetros necesarios para realizar la consulta bajamos a la zona donde estan definidas los parámetros y vemos que a la API hay que pasarle:
+* zip
+* country
+* lan
+* lon
+
+<p align="center">
+  <img src="Imagenes/parameters_api.png" width="722" length="500">
+</p>
+
 ## Analizar el uso de la API
 
 
