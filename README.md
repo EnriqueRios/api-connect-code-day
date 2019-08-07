@@ -157,14 +157,50 @@ Luego, vamos a la zona de seguridad y vemos las dos claves que hay que pasarle a
   <img src="Imagenes/security_api.png" width="722" length="500">
 </p>
 
-Para conocer los parámetros necesarios para realizar la consulta bajamos a la zona donde estan definidas los parámetros y vemos que a la API hay que pasarle:
+Para conocer los parámetros necesarios para realizar la consulta bajamos a la zona donde estan definidos los parámetros y vemos que a la API hay que pasarle:
 * zip
 * country
-* lan
+* lat
 * lon
 
 <p align="center">
   <img src="Imagenes/parameters_api.png" width="722" length="500">
+</p>
+
+Ahora que conocemos esos parámetros, hay que retornar a _Postman_ y preparar la consulta a la API. Primero que nada, nos dirigimos a la pestaña **Headers** y agregamos las claves que se encuentran en la siguiente imagen.
+
+<p align="center">
+  <img src="Imagenes/security_postman.png" width="722" length="500">
+</p>
+
+Los valores de _X-IBM-Client-Id_ y _X-IBM-Client-Secret_ se pueden tomar en la zona que se marca a continuación.
+
+<p align="center">
+  <img src="Imagenes/key_values.png" width="722" length="500">
+</p>
+
+Una vez que tengamos los valores, los colocamos en la columna _Values_ en _Postman_.
+
+<p align="center">
+  <img src="Imagenes/key_values_postman.png" width="722" length="500">
+</p>
+
+**Nota**: A las claves _Accept_ y _Content-Type_ se les asigna como valor "application/json".
+
+Vamos a la pestaña **Params**, donde vamos a definir los valores de los parámetros para la consulta. Desmarcamos los parámetros _lat_ y _lon_ y asignamos los siguientes valores:
+* zip: 10001
+* country: US
+
+Luego, presionamos el botón **Send**:
+
+<p align="center">
+  <img src="Imagenes/params_values_postman.png" width="722" length="500">
+</p>
+
+Esperamos unos segundos para que se realice la consulta y bajamos para ver la respuesta.
+
+<p align="center">
+  <img src="Imagenes/res_postman.png" width="722" length="500">
 </p>
 
 ## Analizar el uso de la API
