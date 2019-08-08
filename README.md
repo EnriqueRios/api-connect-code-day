@@ -236,6 +236,37 @@ Colocamos de título _OAuth_, nombre oauth y automáticamente debería agregar c
   <img src="Imagenes/crear_oauth_api_2.png" width="722" length="500">
 </p>
 
+Se nos abrirá un panel con información de la API que acabamos de crear. Presionamos la opción **OAuth 2** que se encuentra a la izquierda de la pantalla y bajamos hasta la sección **Scopes**. En esta sección, le ponemos como nombre _weather_ al primer scope y borramos los demás.
+
+<p align="center">
+  <img src="Imagenes/scopes.png" width="722" length="500">
+</p>
+
+Continuamos bajando hasta la sección de **Identity extraction** y en las opciones para _Collect credentials using_ seleccionamos la opción **Basic**.
+
+<p align="center">
+  <img src="Imagenes/identity_extraction.png" width="722" length="500">
+</p>
+
+En la sección **Authentication**, que se encuentra debajo, pegamos en el campo _Authentication URL_ la siguiente URL:
+
+```
+https://httpbin.org/basic-auth/username/password
+```
+
+Ahora hacemos click en el botón para guardar y luego presionamos el botón con los tres puntos. Seleccionamos la opción **Add to existing products**.
+
+<p align="center">
+  <img src="Imagenes/save_api.png" width="722" length="500">
+</p>
+
+En la ventana que se abre, seleccionamos la API del clima, a la cual le vamos a agregar la API OAuth 2.0, y presionamos el botón **Add**.
+
+<p align="center">
+  <img src="Imagenes/add_to_product.png" width="722" length="500">
+</p>
+
+
 
 
 
