@@ -254,6 +254,11 @@ En la sección **Authentication**, que se encuentra debajo, pegamos en el campo 
 https://httpbin.org/basic-auth/username/password
 ```
 
+Más tarde utilizaremos las siguientes credenciales para pedir nuestro token para la consumir la API:
+
+* Usuario: username
+* Contraseña: password
+
 Ahora hacemos click en el botón para guardar y luego presionamos el botón con los tres puntos. Seleccionamos la opción **Add to existing products**.
 
 <p align="center">
