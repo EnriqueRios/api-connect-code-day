@@ -308,7 +308,7 @@ Luego seleccionamos la sección **Security** y marcamos la opción **oauth**.
   <img src="Imagenes/select_oauth.png" width="722" length="500">
 </p>
 
-Ahora guardamos los cambios presionando el botón que se encuentra en la zona superior izquierda
+Ahora guardamos los cambios presionando el botón que se encuentra en la zona superior derecha.
 
 ## Probando OAuth
 
