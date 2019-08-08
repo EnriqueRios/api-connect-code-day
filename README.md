@@ -6,7 +6,6 @@
 
 ## Flujo
 * Crear una instancia del servicio API Connect
-* Configuraciones iniciales(NO SE SI VA)
 * Publicar una API
 * Realizar llamadas a la API publicada
 * Analizar el uso de la API
@@ -303,12 +302,23 @@ Bajamos hasta la sección _Scopes_ y agregamos uno con nombre weather.
   <img src="Imagenes/add_scope.png" width="722" length="500">
 </p>
 
-Luego seleccionamos la sección **Security** y marcamos la opción **oauth**.
+Luego seleccionamos la sección **Security** y marcamos la opción **oauth**. 
 
 <p align="center">
   <img src="Imagenes/select_oauth.png" width="722" length="500">
 </p>
 
+Ahora guardamos los cambios presionando el botón que se encuentra en la zona superior izquierda
+
+## Probando OAuth
+
+Ahora que tenemos seguridad en nuestra API, lo que falta es testear que la misma funcione correctamente.\
+Lo primero que debemos hacer es consumir la API de OAuth para que nos asigne un token que luego nos permitirá utilizar la API del clima.\
+Abrimos un terminal y ejecutamos el siguiente comando. Se debe cambiar la URL a la Token URL que definimos antes y el valor _client_id_ al que habíamos utilizado anteriormente:
+
+```
+curl -v -k https://api.us-south.apiconnect.appdomain.cloud/adolfoscalabriniibmcom-dev/micatalogo/oauth/oauth2/token -d "grant_type=password&scope=weather&username=username&password=password&client_id=2958e797-1327-41c3-a578-0860f1448e8a"
+```
 
 
 
