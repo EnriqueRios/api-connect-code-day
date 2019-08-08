@@ -284,7 +284,7 @@ Allí presionamos el botón para agregar una opción y seleccionamos **OAuth**.
 </p>
 
 Luego, bajamos hasta el elemento nuevo con nombre _oauth-1_.\
-En el campo _nombre_ ingresamos **oauth** y en _Flow_ seleccionamos la opción **Password**.\
+En el campo _Name_ ingresamos **oauth** y en _Flow_ seleccionamos la opción **Password**.\
 Por último, en el campo _Token URL_ ingresamos los siguiente con algunos cambios:
 
 ```
@@ -295,6 +295,18 @@ La URL anterior está conformada por su endpoint más /oauth/oauth2/token.
 
 <p align="center">
   <img src="Imagenes/token_url.png" width="722" length="500">
+</p>
+
+Bajamos hasta la sección _Scopes_ y agregamos uno con nombre weather.
+
+<p align="center">
+  <img src="Imagenes/add_scope.png" width="722" length="500">
+</p>
+
+Luego seleccionamos la sección **Security** y marcamos la opción **oauth**.
+
+<p align="center">
+  <img src="Imagenes/select_oauth.png" width="722" length="500">
 </p>
 
 
