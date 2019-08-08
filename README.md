@@ -271,6 +271,31 @@ En la ventana que se abre, seleccionamos la API del clima, a la cual le vamos a 
   <img src="Imagenes/add_to_product.png" width="722" length="500">
 </p>
 
+Ahora volvemos a _Drafts_ y entramos a _APIs_ e ingresamos a la API del clima. Luego seleccionamos la sección **Security Definitions**.
+
+<p align="center">
+  <img src="Imagenes/security_definitions.png" width="722" length="500">
+</p>
+
+Allí presionamos el botón para agregar una opción y seleccionamos **OAuth**.
+
+<p align="center">
+  <img src="Imagenes/add_security_definitions.png" width="722" length="500">
+</p>
+
+Luego, bajamos hasta el elemento nuevo con nombre _oauth-1_.\
+En el campo _nombre_ ingresamos **oauth** y en _Flow_ seleccionamos la opción **Password**.\
+Por último, en el campo _Token URL_ ingresamos los siguiente con algunos cambios:
+
+```
+https://api.us-south.apiconnect.appdomain.cloud/adolfoscalabriniibmcom-dev/micatalogo/oauth/oauth2/token
+```
+
+La URL anterior está conformada por su endpoint más /oauth/oauth2/token.
+
+<p align="center">
+  <img src="Imagenes/token_url.png" width="722" length="500">
+</p>
 
 
 
