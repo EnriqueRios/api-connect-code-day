@@ -324,6 +324,21 @@ curl -v -k https://api.us-south.apiconnect.appdomain.cloud/adolfoscalabriniibmco
 
 ## Introducción al Developer Portal
 
+Los desarrolladores de aplicaciones descubren y usan las API mediante el Developer Portal . Puede personalizar el Portal del desarrollador para los desarrolladores de su aplicación.
 
+Además de permitir que los desarrolladores de aplicaciones encuentren y utilicen API gratuitas y de pago, el Developer Portal proporciona características adicionales que incluyen foros, blogs, comentarios y calificaciones, junto con una interfaz administrativa para personalizar el Portal del desarrollador.
 
+<a href="url">LINK DEVELOPER PORTAL</a>
+
+## Planes 
+
+Podemos definir planes para nuestras API. Los planes pueden ser aplicados como un todo o especificadas para cada operación en una API. 
+
+***Limites de velocidad y rafaga***
+
+El límite de ráfaga permite ráfagas cortas de mayor tráfico. Cuando se supera el límite de ráfaga , todas las llamadas API posteriores se rechazan hasta el inicio del siguiente intervalo de límite de ráfaga . El contador de límite de ráfaga se restablece a cero al comienzo del siguiente intervalo, lo que permite que las llamadas API sean aceptadas nuevamente. Estas llamadas API cuentan para el contador de límite de velocidad , pero el restablecimiento del contador de límite de ráfaga no afecta el contador de límite de velocidad .
+
+El límite de velocidad es la cantidad de llamadas API permitidas en un intervalo de tiempo, por ejemplo, 1000 llamadas por día. Cuando se excede el límite de velocidad y se habilita el límite estricto de cumplimiento , se rechazarán todas las llamadas posteriores a la API. El contador de límite de velocidad se restablece a cero al comienzo del siguiente intervalo de límite de velocidad , lo que permite que las llamadas API sean aceptadas nuevamente. Si Desactivar límite estricto está deshabilitado, todas las llamadas API posteriores aún se aceptan y se registra un mensaje que indica que se ha excedido el límite de velocidad . Esto se conoce como un "límite suave".
+
+Cuando la opción Imponer límite estricto no está marcada, el límite de velocidad se considera un "límite flexible". Con un límite flexible, las llamadas no se rechazan después de alcanzar el límite de tarifa . En cambio, se registra un mensaje en el archivo de registro. Con un límite flexible, el límite de ráfaga aún rechaza las llamadas API después de que se excede.
 
