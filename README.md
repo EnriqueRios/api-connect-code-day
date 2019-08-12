@@ -202,6 +202,28 @@ Esperamos unos segundos para que se realice la consulta y bajamos para ver la re
   <img src="Imagenes/res_postman.png" width="722" length="500">
 </p>
 
+
+## Llamada a la API a través del servicio Api Connect
+
+Tambien podemos realizar llamadas a la API a través del mismo servicio. Vamos al item ***Drafts***
+
+<p align="center">
+  <img src="Imagenes/seleccionar_drafts.png" width="722" length="500">
+</p>
+
+Y luego seleccionamos en la pestaña APIs nuestra API del clima.
+
+Se nos abrira el panel de diseño para modificar nuestra API, seleccionamos el panel de ensamblaje, y luego clickeamos donde muestra la siguiente imagen
+
+<p align="center">
+  <img src="Imagenes/TOMAS1.png" width="722" length="500">
+</p>
+
+sobre el panel de la izquierda, clickeamos sobre el boton ***Cambiar configuración*** seleccionando el catalogo creado y nuestro producto, finalmente damos en ***Siguiente***
+
+Luego podemos generar nuestra consulta ,seleccionando la operacion correspondiente, a la API de igual manera que se hacia con Postman, completando los parametros ***zip*** y ***country*** y en caso de tener agregada la seguridad de OAUTH, completar dichos campos también.
+
+
 ## Agregar seguridad a la API
 
 Ahora veamos cómo proteger el acceso a una API utilizando el protocolo OAuth 2.0. Construiremos el proveedor OAuth 2.0 y luego agregaremos la seguridad OAuth 2.0 a una API existente. En nuestro caso vamos a utilizar la API del clima con la que ya hemos estado trabajando.\
