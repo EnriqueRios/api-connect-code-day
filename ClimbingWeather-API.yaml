@@ -14,7 +14,7 @@ x-ibm-configuration:
   assembly:
     execute:
       - invoke:
-          target-url: 'https://api.us.apiconnect.ibmcloud.com/developmentoperations-apiconnect/sb$(request.path)$(request.search)&client_id=7551f520-72a3-45ac-a5b8-5ecc52712584'
+          target-url: 'https://api.us-south.apiconnect.appdomain.cloud/facluhotmailcom-dev/micatalogo/weather/forecast'
           title: 3 day forecast invocation
           cache-response: time-to-live
           cache-key: $(request.search)
