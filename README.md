@@ -202,6 +202,28 @@ Esperamos unos segundos para que se realice la consulta y bajamos para ver la re
   <img src="Imagenes/res_postman.png" width="722" length="500">
 </p>
 
+
+## Llamada a la API a través del servicio Api Connect
+
+Tambien podemos realizar llamadas a la API a través del mismo servicio. Vamos al item ***Drafts***
+
+<p align="center">
+  <img src="Imagenes/seleccionar_drafts.png" width="722" length="500">
+</p>
+
+Y luego seleccionamos en la pestaña APIs nuestra API del clima.
+
+Se nos abrira el panel de diseño para modificar nuestra API, seleccionamos el panel de ensamblaje, y luego clickeamos donde muestra la siguiente imagen
+
+<p align="center">
+  <img src="Imagenes/TOMAS1.png" width="722" length="500">
+</p>
+
+sobre el panel de la izquierda, clickeamos sobre el boton ***Cambiar configuración*** seleccionando el catalogo creado y nuestro producto, finalmente damos en ***Siguiente***
+
+Luego podemos generar nuestra consulta ,seleccionando la operacion correspondiente, a la API de igual manera que se hacia con Postman, completando los parametros ***zip*** y ***country*** y en caso de tener agregada la seguridad de OAUTH, completar dichos campos también.
+
+
 ## Agregar seguridad a la API
 
 Ahora veamos cómo proteger el acceso a una API utilizando el protocolo OAuth 2.0. Construiremos el proveedor OAuth 2.0 y luego agregaremos la seguridad OAuth 2.0 a una API existente. En nuestro caso vamos a utilizar la API del clima con la que ya hemos estado trabajando.\
@@ -324,6 +346,21 @@ curl -v -k https://api.us-south.apiconnect.appdomain.cloud/adolfoscalabriniibmco
 
 ## Introducción al Developer Portal
 
+Los desarrolladores de aplicaciones descubren y usan las API mediante el Developer Portal . Puede personalizar el Portal del desarrollador para los desarrolladores de su aplicación.
 
+Además de permitir que los desarrolladores de aplicaciones encuentren y utilicen API gratuitas y de pago, el Developer Portal proporciona características adicionales que incluyen foros, blogs, comentarios y calificaciones, junto con una interfaz administrativa para personalizar el Portal del desarrollador.
 
+<a href="url">LINK DEVELOPER PORTAL</a>
+
+## Planes 
+
+Podemos definir planes para nuestras API. Los planes pueden ser aplicados como un todo o especificadas para cada operación en una API. 
+
+***Limites de velocidad y rafaga***
+
+El límite de ráfaga permite ráfagas cortas de mayor tráfico. Cuando se supera el límite de ráfaga , todas las llamadas API posteriores se rechazan hasta el inicio del siguiente intervalo de límite de ráfaga . El contador de límite de ráfaga se restablece a cero al comienzo del siguiente intervalo, lo que permite que las llamadas API sean aceptadas nuevamente. Estas llamadas API cuentan para el contador de límite de velocidad , pero el restablecimiento del contador de límite de ráfaga no afecta el contador de límite de velocidad .
+
+El límite de velocidad es la cantidad de llamadas API permitidas en un intervalo de tiempo, por ejemplo, 1000 llamadas por día. Cuando se excede el límite de velocidad y se habilita el límite estricto de cumplimiento , se rechazarán todas las llamadas posteriores a la API. El contador de límite de velocidad se restablece a cero al comienzo del siguiente intervalo de límite de velocidad , lo que permite que las llamadas API sean aceptadas nuevamente. Si Desactivar límite estricto está deshabilitado, todas las llamadas API posteriores aún se aceptan y se registra un mensaje que indica que se ha excedido el límite de velocidad . Esto se conoce como un "límite suave".
+
+Cuando la opción Imponer límite estricto no está marcada, el límite de velocidad se considera un "límite flexible". Con un límite flexible, las llamadas no se rechazan después de alcanzar el límite de tarifa . En cambio, se registra un mensaje en el archivo de registro. Con un límite flexible, el límite de ráfaga aún rechaza las llamadas API después de que se excede.
 
