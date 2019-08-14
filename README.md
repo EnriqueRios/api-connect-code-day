@@ -332,18 +332,6 @@ Luego seleccionamos la sección **Security** y marcamos la opción **oauth**.
 
 Ahora guardamos los cambios presionando el botón que se encuentra en la zona superior derecha.
 
-## Probando OAuth
-
-Ahora que tenemos seguridad en nuestra API, lo que falta es testear que la misma funcione correctamente.\
-Lo primero que debemos hacer es consumir la API de OAuth para que nos asigne un token que luego nos permitirá utilizar la API del clima.\
-Abrimos un terminal y ejecutamos el siguiente comando. Se debe cambiar la URL a la Token URL que definimos antes y el valor _client_id_ al que habíamos utilizado anteriormente:
-
-```
-curl -v -k https://api.us-south.apiconnect.appdomain.cloud/adolfoscalabriniibmcom-dev/micatalogo/oauth/oauth2/token -d "grant_type=password&scope=weather&username=username&password=password&client_id=2958e797-1327-41c3-a578-0860f1448e8a"
-```
-
-
-
 ## Introducción al Developer Portal
 
 Los desarrolladores de aplicaciones descubren y usan las API mediante el Developer Portal . Puede personalizar el Portal del desarrollador para los desarrolladores de su aplicación.
